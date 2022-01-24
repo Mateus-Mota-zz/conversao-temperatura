@@ -48,4 +48,4 @@ jobs:
         with:
           image: mateusmotaa/rotten-potatoes:${{ github.run_number }}
           manifests: | 
-            k8s/deployment.yaml
+            ./src/swagger.yaml
