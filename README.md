@@ -2,32 +2,33 @@
 
 O passo a passo do projeto foi desenvolvido durante o evento Iniciativa Kubernetes
 
-## Pré-requisitos
+<br>
+
+## Requisitos
 
 * Git
 * Docker
 
-## Passo a Passo
+<br>
 
-### 1° Realizando o clone desse projeto
-~~~bash
-git clone https://github.com/Mateus-Mota/conversao-temperatura.git
-~~~
+## Outras Ferramentas utilizadas
 
-### 2° Criação de uma nova imagem.
-~~~bash
-docker build -t mateusmota/conversao-temperatura:v1 .
-~~~
+* Github Actions
+* Nginx
 
-### 3° Criação da tag "latest"
-~~~bash
-docker tag mateusmota/conversao-temperatura:v1 mateusmota/conversao-temperatura:latest
-~~~
+<br>
 
-### 4° Realização do push da sua imagem para o DockerHub.
+## Link da Imagem no Docker Hub
+
+* https://hub.docker.com/repository/docker/mateusmotaa/conversao-temperatura
+
+<br>
+
+## Passo a Passo de Desenvolvimento
+
+### 1° Passo foi realizar o clone do projeto oficial
 ~~~bash
-docker push mateusmota/conversao-temperatura:v1
-docker push mateusmota/conversao-temperatura:latest
+git clone https://github.com/KubeDev/conversao-temperatura
 ~~~
 
 
