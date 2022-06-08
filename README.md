@@ -1,6 +1,4 @@
-# Projeto de Pipeline CI/CD para o build de uma aplicação de Conversão Temperatura
-
-<br>
+# Projeto de Pipeline CI/CD para o build de uma aplicação em Node.js
 
 ## Pré-requisitos
 
