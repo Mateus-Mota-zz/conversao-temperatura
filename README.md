@@ -19,7 +19,6 @@
 ## Outras tecnologias utilizadas
 
 * Github Actions
-* Nginx
 
 <br>
 
