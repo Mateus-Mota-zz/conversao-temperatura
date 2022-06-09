@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: cd src 
-      - run: cd ls
+      - run: ls
       - run: npm ci 
       - run: npm run build --if-present
       - run: npm test
