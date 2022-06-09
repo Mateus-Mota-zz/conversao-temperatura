@@ -26,12 +26,12 @@
 
 <br>
 
-## Passo a Passo
+## Passo a Passo de Desenvolvimento
 
-### 1° Passo, realizar o fork do projeto oficial
+### 1° Passo, realização do fork do projeto oficial
 Repositório oficial: https://github.com/KubeDev/conversao-temperatura
 
-### 2° Passo, realizar o clone do projeto
+### 2° Passo, realização do clone do projeto
 ~~~bash
 git clone https://github.com/Mateus-Mota/conversao-temperatura
 ~~~
@@ -44,7 +44,7 @@ git clone https://github.com/Mateus-Mota/conversao-temperatura
 * Utilizado CMD para o comando node inicie a aplicação por via do parâmentro node.js
 
 
-### 4° Passo, Utilização do Github Actions para pipeline CI-CD
+### 4° Passo, utilização do Github Actions para pipeline CI-CD
 * Criado os diretórios .github/workflows como requisitado na documentação e criado o arquivo main.yml
 #### CI
 * Criado os secrets DOCKERHUB_USER e DOCKERHUB_PWD no github para permitir o acesso ao dockerhub de forma segura
