@@ -49,9 +49,6 @@ git clone https://github.com/Mateus-Mota/conversao-temperatura
 #### CI
 * Criado os secrets DOCKERHUB_USER e DOCKERHUB_PWD no github para permitir o acesso ao dockerhub de forma segura
 * Utilizado o variável github.run_number para saber numerar a versão e a atualizar a mais recente a cada push realizado
-#### CD
-*
-*
 
 
 
